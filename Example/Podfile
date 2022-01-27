@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HBFloatingView_Example' do
+  pod 'HBFloatingView', :path => '../'
+
+  target 'HBFloatingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
